@@ -1,0 +1,54 @@
+{
+  "name": "crypto_analysis",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-oauth/google": "^0.9.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "base-58": "^0.0.1",
+    "base58-encode": "^0.2.0",
+    "base58-universal": "^2.0.0",
+    "base64-decode": "^1.0.2",
+    "bs58": "^5.0.0",
+    "bs58check": "^3.0.1",
+    "buffer": "^6.0.3",
+    "copy-to-clipboard": "^3.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.2",
+    "uint8-to-base64": "^0.2.0",
+    "wallet-validator-js": "^1.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
